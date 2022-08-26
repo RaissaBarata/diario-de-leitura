@@ -1,18 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:ital@1&display=swap');
 
 body {
-  background-color: rgb(202, 183, 164);
+  background-color: #F3EAE3;
   font-family: 'Dancing Script', sans-serif;
+  padding: 15px;
+  background-image: linear-gradient(rgba(201, 156, 130, 0.466), rgba(233, 218, 210, 0.74),rgba(201, 156, 130, 0.466));
 }
 
-h1, h2, h3 {
-    color: rgba(204, 180, 159, 0.473);
+* {
+    box-sizing: border-box;
+}
+
+h1 { 
+    color:rgba(95, 39, 6, 0.411);
     font-size: 50px;
+
+} 
+
+h2, h3 {
+    color:rgba(95, 39, 6, 0.411);
+    font-size: 30px;
     border-radius: 10px;
     background-color: rgb(95, 39, 6, 0.411);
     padding: 15px;
     width: 100%;
        
+}
+
+h4 {
+    color: rgba(95, 39, 6, 0.411);
+    font-size: 30px;
+    text-align: center;
 }
 
 
@@ -23,6 +41,72 @@ p, ol, a, tr {
 }
 
 
+ul {
+    background-color:rgba(95, 39, 6, 0.411);
+    border-radius: 10px;
+     
+}
+
+li {
+    display: inline-block;
+    padding: 20px;    
+}
+
+li a, .dropbtn {
+    text-decoration: none;
+    
+}
+
+li a:hover, .dropbtn:hover{
+    background: rgba(95, 39, 6, 0.411);
+    border-radius: 10px;
+    }
+
+li.dropdown{
+        display: inline-block;
+        float: right;
+        background-color: none;
+    }
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 150px;
+    padding: 20px;
+}
+
+.dropdown-content a:hover{
+    color: rgba(95, 39, 6, 0.411);
+}
+.dropdown-content a{
+    color: rgba(95, 39, 6, 0.411);
+    display: block;
+    text-align: left;
+    border: 1px;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.Outros {
+    float: right;
+}
+
+.wishlist {
+        text-align: center;  
+    
+}
+
+.wishlist h1 {
+    background-color: transparent;
+    color: rgba(95, 39, 6, 0.411);
+    font-size: 60px;
+}
+
+
+
 .container {
     padding: 25px;
     text-align: center;
@@ -31,8 +115,10 @@ p, ol, a, tr {
     align-items: center;
 } 
 
+
 .livro {
     text-align: center;
+    opacity: 0.7;
 }
 
 .botao {
@@ -41,6 +127,10 @@ p, ol, a, tr {
     border-radius: 20px;
     text-decoration: none;
     transition: .5s;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+
 }
 
 .botao.botao-grande {
@@ -54,6 +144,34 @@ p, ol, a, tr {
 .botao:hover{
     background: rgb(95, 39, 6, 0.411);
     padding: 20px 30px;
-    border-radius: 20px
+    border-radius: 20px;
 }
 
+.exemplo{
+    background: rgba(163, 99, 62, 0.411);
+    color: aliceblue;
+    overflow: auto;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container3 {
+    border: 1px solid  rgb(95, 39, 6, 0.411);
+    overflow: auto;
+
+}
+
+.container3 img{
+float: left;
+margin-right: 20px;
+}
+
+.container4 {
+    border: 1px solid rgb(95, 39, 6, 0.411);
+    overflow: auto;
+}
+
+.container4 img{
+    float:left;
+    margin-right: 20px;
+}
