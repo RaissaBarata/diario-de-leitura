@@ -66,37 +66,44 @@ li.dropdown{
         display: inline-block;
         float: right;
         background-color: none;
+        position: relative;
     }
 
 .dropdown-content{
     display: none;
     position: absolute;
-    width: 150px;
-    padding: 20px;
+    margin-top: 25px;
+    left: 50%;    
+    transform: translateX(-50%);
+    text-align: center;
+    width: 130px;
+    padding: 10px;
+    background-color: rgba(163, 99, 62, 0.212);;
+    opacity: 0.9;
+    border-radius: 10px;
+    }
+
+
+.dropdown-content a{
+    color: rgba(95, 39, 6, 0.411);
+    display: block;
+    text-align: center;
+    border: 1px;
+    padding: 15px;
 }
 
 .dropdown-content a:hover{
     color: rgba(95, 39, 6, 0.411);
 }
-.dropdown-content a{
-    color: rgba(95, 39, 6, 0.411);
-    display: block;
-    text-align: left;
-    border: 1px;
-    padding: 10px;
-}
 
 .dropdown:hover .dropdown-content{
     display: block;
-}
-
-.Outros {
-    float: right;
+    transition-delay:1s;
 }
 
 .wishlist {
         text-align: center;  
-    
+        padding: 50px;
 }
 
 .wishlist h1 {
@@ -106,9 +113,8 @@ li.dropdown{
 }
 
 
-
 .container {
-    padding: 25px;
+    padding: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
