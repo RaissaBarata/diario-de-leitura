@@ -13,7 +13,8 @@ body {
 
 h1 { 
     color:rgba(95, 39, 6, 0.411);
-    font-size: 50px;
+    font-size: 60px;
+    text-shadow: 10px 5px 20px rgba(124, 75, 46, 0.664);
 
 } 
 
@@ -24,13 +25,14 @@ h2, h3 {
     background-color: rgb(95, 39, 6, 0.411);
     padding: 15px;
     width: 100%;
-       
+    box-shadow: 8px 8px 5px rgba(124, 75, 46, 0.664);
 }
 
 h4 {
     color: rgba(95, 39, 6, 0.411);
     font-size: 30px;
     text-align: center;
+    text-shadow: 5px 3px 10px rgba(124, 75, 46, 0.664);
 }
 
 
@@ -40,10 +42,16 @@ p, ol, a, tr {
     text-align: center;
 }
 
+img {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 
 ul {
     background-color:rgba(95, 39, 6, 0.411);
     border-radius: 10px;
+    text-shadow: 5px 3px 10px rgba(124, 75, 46, 0.664);
+    box-shadow: 8px 8px 5px rgba(124, 75, 46, 0.664);
      
 }
 
@@ -101,6 +109,7 @@ li.dropdown{
     transition-delay:1s;
 }
 
+
 .wishlist {
         text-align: center;  
         padding: 50px;
@@ -125,6 +134,7 @@ li.dropdown{
 .livro {
     text-align: center;
     opacity: 0.7;
+    
 }
 
 .botao {
@@ -136,6 +146,8 @@ li.dropdown{
     position: fixed;
     bottom: 15px;
     right: 15px;
+    text-shadow: 5px 3px 10px rgba(124, 75, 46, 0.664);
+    box-shadow: 8px 8px 8px rgba(124, 75, 46, 0.664);
 
 }
 
@@ -158,26 +170,33 @@ li.dropdown{
     color: aliceblue;
     overflow: auto;
     height: 200px;
+    padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 
 .container3 {
     border: 1px solid  rgb(95, 39, 6, 0.411);
     overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
 
 .container3 img{
 float: left;
 margin-right: 20px;
+box-shadow: 5px 5px 8px rgba(124, 75, 46, 0.664);
 }
 
 .container4 {
     border: 1px solid rgb(95, 39, 6, 0.411);
     overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .container4 img{
     float:left;
     margin-right: 20px;
+    box-shadow: 5px 5px 8px rgba(124, 75, 46, 0.664);
 }
