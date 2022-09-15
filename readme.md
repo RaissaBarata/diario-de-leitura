@@ -1,6 +1,6 @@
 ### Meu primeiro projeto utilizando HTML + CSS
 
-https://diario-de-leitura.netlify.app/
+
 
 <br />
 
